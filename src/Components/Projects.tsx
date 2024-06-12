@@ -17,7 +17,7 @@ export const Projects=()=>{
                  <div> <img className=" rounded-3xl ml-3 w-10/12" src={wp} alt="" /></div>
                </div>
              </div>
-           <div className='md:pt-16'>
+           <div className='md:pt-5'>
             <ProjectList></ProjectList>
            </div>
         </div>
