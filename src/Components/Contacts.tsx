@@ -1,10 +1,10 @@
-import x from '../assets/x.png'
+// import x from '../assets/x.png'
 import twitters from '../assets/twitters.png'
-import twitterm from '../assets/twitterm.png'
+// import twitterm from '../assets/twitterm.png'
 import linkdins from '../assets/linkdins.png'
-import linkdinm from '../assets/linkdinm.png'
+// import linkdinm from '../assets/linkdinm.png'
 import gits from '../assets/gits.png'
-import gitm from '../assets/gitm.png'
+// import gitm from '../assets/gitm.png'
 import igs from '../assets/igs.png'
 import phone from "../assets/phone.png"
 import gmail from "../assets/gmail.png"
