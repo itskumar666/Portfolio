@@ -16,7 +16,7 @@ function App() {
     <>
     
   <BrowserRouter>
-  <Header></Header>
+     <div className="sticky top-0 z-50"><Header></Header></div>
   <Routes>
     <Route path='/' element={<Home/>}></Route>
     <Route path="/contacts" element={<Contacts/>}></Route>
