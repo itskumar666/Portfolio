@@ -1,4 +1,4 @@
-import React, { useEffect, useState, useRef } from 'react';
+import { useEffect, useState, useRef } from 'react';
 import wp from '../assets/wp.jpg';
 import { ProjectList } from './ProjectList';
 

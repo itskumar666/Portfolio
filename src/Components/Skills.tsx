@@ -1,4 +1,4 @@
-import React, { useEffect, useState, useRef } from 'react';
+import  { useEffect, useState, useRef } from 'react';
 import skills from '../assets/skills.png'; // Import your image
 
 export const Skills = () => {

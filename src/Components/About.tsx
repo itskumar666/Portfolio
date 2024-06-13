@@ -1,4 +1,4 @@
-import React, { useEffect, useState, useRef } from 'react';
+import  { useEffect, useState, useRef } from 'react';
 import my from '../assets/my.jpg'; // Import your image
 
 export const About = () => {

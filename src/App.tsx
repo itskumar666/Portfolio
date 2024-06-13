@@ -9,6 +9,7 @@ import { BrowserRouter, Routes, Route,} from 'react-router-dom';
 import { Blogs } from './Components/Blogs';
 import { Contacts } from './Components/Contacts';
 import { Home } from './Components/Home';
+import { Footer } from './Components/Footer';
 function App() {
   // const [count, setCount] = useState(0)
 
@@ -27,6 +28,7 @@ function App() {
 
 
   </Routes>
+  <Footer></Footer>
   </BrowserRouter>
        
     </>
