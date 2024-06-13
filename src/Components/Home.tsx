@@ -5,7 +5,7 @@ import { Skills } from "./Skills"
 export const Home=()=>{
 return(
    
-    <div className="">
+    <div className=" overflow-x-hidden">
   
     <About />
     <div className="md:border-2 md:border-gray-200 w-auto"></div>
