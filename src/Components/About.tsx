@@ -14,7 +14,7 @@ export const About = () => {
                     setAnimate(false);
                 }
             },
-            { threshold: 0.3 } // Trigger when 10% of the component is visible
+            { threshold: 0.1 } // Trigger when 10% of the component is visible
         );
 
         if (ref.current) {
@@ -31,7 +31,7 @@ export const About = () => {
     return (
         <div ref={ref} className="relative px-12 md:px-18 py-5 mb-10 lg:px-32 md:mt-10">
             <div className="flex flex-col md:flex-row gap-16 -mb-6">
-                <div className={`hidden md:flex pt-16 w-1/2 h-1/2 relative z-10 transition-transform duration-1000 ease-in-out ${animate ? 'translate-x-0 opacity-100' : '-translate-x-full opacity-0'}`}>
+                <div className={`hidden md:flex pt-16 w-1/2 h-1/2 relative z-10 transition-transform  duration-1000  ease-in ${animate ? 'translate-x-0 opacity-100' : '-translate-x-full opacity-0'}`}>
                     <img src={my} alt="My Image" className="w-full h-auto" />
                 </div>
                 <div className={`md:w-1/2 pr-8 md:mt-10 transition-transform duration-1000 ease-in-out ${animate ? 'translate-x-0 opacity-100' : 'translate-x-full opacity-0'}`}>

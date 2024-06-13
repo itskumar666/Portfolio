@@ -17,7 +17,7 @@ export const ExperiencePage = () => {
                 setAnimate(false);
             }
             },
-            { threshold: 0.6 } // Trigger when 10% of the component is visible
+            { threshold: 0.3 } // Trigger when 10% of the component is visible
         );
 
         if (ref.current) {
