@@ -40,7 +40,7 @@ export const ExperiencePage = () => {
                 <div className={`mb-8 mx-8 md:w-2/6 md:mt-2 transition-transform duration-1000 ease-in-out ${animate ? 'translate-x-0 opacity-100' : '-translate-x-full opacity-0'}`}>
                     <h3 className="text-xl font-bold my-2 md:text">Software Engineer</h3>
                     <p className="text-gray-600 my-2">Full Stack Developer, Softintra</p>
-                    <p className="text-gray-700 my-2">Feb 2024 - Present</p>
+                    <p className="text-gray-700 my-2">Jun 2024 - Present</p>
                     <p>
                         Improved user engagement by 35% with a mobile-friendly web platform, expanding user reach by 50%. Mentored 2 junior developers on MERN stack and SQL databases, increasing project efficiency by 20%. Collaborated with 8 developers to launch a program, generating $40k revenue in its first quarter.
                     </p>
@@ -54,7 +54,7 @@ export const ExperiencePage = () => {
                 <div className={`mb-8 mx-8 md:w-2/6 md:mt-56 md:pl-5 transition-transform duration-1000 ease-in-out ${animate ? 'translate-x-0 opacity-100' : 'translate-x-full opacity-0'}`}>
                     <h3 className="text-xl font-bold my-2 md:text">Intern</h3>
                     <p className="text-gray-600 my-2">Backend Developer, Softintra</p>
-                    <p className="text-gray-700 my-2">June 2023 - Aug 2023</p>
+                    <p className="text-gray-700 my-2">Mar 2024 - Jun 2024</p>
                     <p>
                         Implemented JWT, zod and bcrypt with Node.js for secure login and session control, reducing breaches by 75%. Collaborated for clear project requirements, delivering solutions exceeding client expectations by 20%. Developed 10+ web apps with HTML, CSS, and JS, increasing user engagement by 30%.
                     </p>
